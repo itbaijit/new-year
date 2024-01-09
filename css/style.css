@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .container {
@@ -15,9 +14,8 @@
 }
 
 .bgimg {
-    background-image:
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-    url('/images/Banner.png');
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/images/Banner.png");
   min-height: 700px;
   background-position: center;
   background-size: cover;
@@ -42,81 +40,105 @@
 }
 
 .little-text {
-    text-align: center;
+  text-align: center;
 }
 
 .banner {
-
 }
 
 .h2-text {
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 70px;
-font-weight: 700;
-line-height: normal;
-margin-top: 120px;
-margin-bottom: 60px;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 
 .h2-little-text {
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .category-text {
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .category-img {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
+
 .bgimg2 {
-    background-image:
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-    url('/images/Vectorrr.png');
-  max-height: 700px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/images/Vectorrr.png");
+  height: 700px;
   background-position: center;
   background-size: cover;
   position: relative;
   font-size: 25px;
   display: flex;
   flex-shrink: 0;
- 
+
   justify-content: center;
   border-radius: 16px;
   color: #fff;
 }
 
 .bold-text2 {
-    color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-margin: 126px 552px 298px 126px ;
-letter-spacing: 10px;
-}
-
-.little-text2 {
-    position: relative;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  margin: 200px 552px 0px 0px;
+  letter-spacing: 10px;
 }
 
 .year-img {
-    justify-content: space-between;
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    right: 20px; /* Adjust the horizontal position */
+    transform: translateY(-50%); /* Center vertically */
+    margin-right: 100px;
+  }
+  
+  .small-text {
+    position: relative;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+  }
+
+button {
+    padding: 20px 50px;
+    border: none;
+    margin-top: 10px;
+   
+    
+}
+  
+button:hover {
+ 
+    transition: all 1s;
+    padding: 20px 100px;
 }
